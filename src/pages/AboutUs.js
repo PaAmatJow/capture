@@ -1,11 +1,15 @@
-import React from "react";
+import React from 'react';
 // Page Components
-import AboutSection from '../components/AboutSection'
+import AboutSection from '../components/AboutSection';
+import ServicesSection from '../components/ServicesSection';
 
-const AboutUs = ()=>{
-  return(
-    <AboutSection/>
-  )
-}
+const AboutUs = () => {
+	return (
+		<>
+			<AboutSection />
+			<ServicesSection />
+		</>
+	);
+};
 
-export default AboutUs
+export default AboutUs;
